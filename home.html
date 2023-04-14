@@ -10,12 +10,15 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="stylehome.css" />
+    <link rel="stylesheet" href="/css/stylehome.css" />
 
     <title>Gossip Soul</title>
 </head>
 
 <body>
+    <!-- JavaScript -->
+    <script src="/src/function.js"></script>
+
     <header class="header">
         <img src="/img/gossipsoul-logo.png" class="logo">
 
@@ -56,7 +59,7 @@
                 <img src="/img/newshome.jpeg" class="newshomeimg">
                 <div class="box">
                     <h1>Recebendo fofoca nova..</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nesciunt ad asperiores id ducimus at necessitatibus impedit quisquam accusamus iure tenetur, officia nihil! Perferendis aperiam officia aut quos ab quasi?</p>
+                    <p>Interesse, descrença, empolgação, preocupação ou desaprovação? Qual é a primeira reação ao perceber que está se iniciando uma nova fofoca? </p>
                 </div>
             </article>
 
@@ -64,9 +67,9 @@
                 <img src="/img/newshome2.jpeg" class="newshomeimg">
                 <div class="box">
                     <h1>É de alguém que eu não gosto!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias obcaecati quam facere totam illum porro rerum. Porro vero labore sequi nulla fugit. Eligendi nisi facilis, rerum exercitationem magnam repudiandae!</p>
+                    <p>AH! Daquela pessoa? Chegou o melhor momento do dia! Quero todos os detalhes de tudo que aconteceu! Já! </p>
                 </div>
-                <a href="/noticias.html" class="more">Ler mais..</a>
+                <a href="/noticias.html" class="more">Veja as notícias!</a>
             </article>
         </main>
     </section>
@@ -74,7 +77,7 @@
 
     <section class="sectioncadastro" id="cadastro">
         <h1 class="titleForm">Fofocas em primeira mão?</h1>
-        <form action="#" class="cadastroform">
+        <form onSubmit="alertaRegistro()" class="cadastroform" id="myForm">
             <input type="text" id="name" placeholder="Nome" required>
             <input type="text" id="sobrenome" placeholder="Sobrenome">
             <input type="email" id="email" placeholder="E-mail" required>
@@ -99,9 +102,15 @@
     <a href="#topo"><img src="/img/botaotopo.png" class="topo"></a>
 
     <footer>
-        <a href=" https://www.instagram.com/soulcodeacademy/"> <img src="/img/instagram.png" class="instagram"></a>
-        <a href="https://soulcode.com/"><img src="/img/soulcode.png" class="soulcodeweb"></a>
-        <a href="https://www.linkedin.com/company/soulcodeacademy/"><img src="/img/linkedin.png" class="linkedin"></a>
+        <div class="contentfooter">
+            <a href=" https://www.instagram.com/soulcodeacademy/"> <img src="/img/insta.png" class="instagram"></a>
+            <a href="https://soulcode.com/"><img src="/img/soulcode.png" class="soulcodeweb"></a>
+            <a href="https://www.linkedin.com/company/soulcodeacademy/"><img src="/img/linkedin.png" class="linkedin"></a>
+            <button onclick="changeTheme()" class="btndark">Dark Mode</button>
+        </div>
+        <div class="extra">
+            <p>Alisson Joaquim, Mariana Magalhães, Matheus Santos &copy; 2023</p>
+        </div>
     </footer>
 
 </body>

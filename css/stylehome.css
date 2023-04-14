@@ -15,6 +15,49 @@ body {
 
 /* Fim de informações gerais */
 
+/* Dark Mode */
+.dark-mode {
+    background-color: rgb(26, 26, 26);
+}
+
+.dark-mode header {
+    background-color: #2d363e;
+}
+
+.dark-mode .navbar a {
+    color: white;
+}
+
+.dark-mode .navbar a:hover {
+    color: #DFCAE1;
+}
+
+.dark-mode article h1 {
+    background-color: #2d363e;
+    color: white;
+}
+
+.dark-mode .more {
+    background-color: #2d363e;
+    color: white;
+}
+
+.dark-mode .more:hover {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .extra {
+    color: white;
+}
+
+.btndark {
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Fim do Dark Mode */
+
 /* Header com nav */
 .header {
     position: fixed;
@@ -123,11 +166,11 @@ main {
 .titleNoticias {
     text-align: center;
     margin: 20px;
-    font-size: 70px;
+    font-size: 75px;
 }
 
 .content {
-    padding: 20px;
+    padding: 26px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -197,16 +240,23 @@ select {
     margin: 12px;
 }
 
+
+/*Fim de section de cadastro*/
+
+/* Botão retornar ao topo */
 .topo {
     height: 30px;
     margin-left: 95%;
 }
 
 
-/*Fim de section de cadastro*/
-
 /* Footer */
+
 footer {
+    align-items: center;
+}
+
+.contentfooter {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -217,4 +267,11 @@ footer {
 .soulcodeweb,
 .linkedin {
     height: 50px;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
