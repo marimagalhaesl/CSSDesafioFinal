@@ -78,17 +78,21 @@ body {
 .container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
     align-items: center;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 aside {
     background-color: white;
     border-radius: 10px;
-    height: 1000px;
-    width: 20%;
+    width: max-content;
+    padding-right: 30px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .publi {
@@ -110,30 +114,35 @@ aside {
 }
 
 main {
+    flex-direction: column;
     background-color: white;
     border-radius: 10px;
-    height: 1000px;
-    width: 75%;
+    width: 78%;
 }
 
 .titleNoticias {
     text-align: center;
-    margin: 50px;
-    font-size: 75px;
+    margin: 20px;
+    font-size: 70px;
 }
 
 .content {
-    padding: 50px;
+    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.newshomeimg {
+    height: 230px;
 }
 
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .more {
@@ -164,9 +173,10 @@ article h1 {
 .sectioncadastro {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     background-color: white;
     border-radius: 10px;
-    height: 450px;
+    height: fit-content;
     width: 97%;
 
 }
@@ -188,19 +198,10 @@ select {
 }
 
 .topo {
-    margin-left: 88%;
-    padding: 10px 15px;
-    background-color: #E5DDE6;
-    border-radius: 10px 20px 20px 10px;
-    box-shadow: 5px 5px 5px black;
-    font-size: 10px;
-    color: black;
-    letter-spacing: 1.5px;
+    height: 30px;
+    margin-left: 95%;
 }
 
-.topo:hover {
-    background-color: white;
-}
 
 /*Fim de section de cadastro*/
 
@@ -209,7 +210,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .instagram,
