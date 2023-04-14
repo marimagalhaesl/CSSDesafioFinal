@@ -158,22 +158,20 @@ aside {
 
 main {
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: white;
     border-radius: 10px;
-    width: 78%;
+    width: 80%;
 }
 
 .titleNoticias {
     text-align: center;
     margin: 20px;
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .content {
-    padding: 26px;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -192,7 +190,7 @@ main {
 
 .more {
     position: static;
-    margin-left: 85%;
+    margin-left: 80%;
     padding: 10px 15px;
     background-color: #E5DDE6;
     border-radius: 10px 20px 20px 10px;
@@ -213,40 +211,6 @@ article h1 {
     margin: 15px;
 }
 
-/* Fim de section com main e aside */
-
-/* Section de cadastro */
-.sectioncadastro {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 10px;
-    height: fit-content;
-    width: 97%;
-
-}
-
-.titleForm {
-    text-align: center;
-    font-size: 40px;
-    padding: 20px;
-}
-
-.cadastroform {
-    text-align: center;
-}
-
-form input,
-select {
-    padding: 10px 30px;
-    margin: 12px;
-}
-
-
-/*Fim de section de cadastro*/
-
-/* Botão retornar ao topo */
 .topo {
     height: 30px;
     margin-left: 95%;
@@ -254,7 +218,6 @@ select {
 
 
 /* Footer */
-
 footer {
     align-items: center;
 }
