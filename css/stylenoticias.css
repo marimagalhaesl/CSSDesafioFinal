@@ -32,6 +32,12 @@ body {
     color: #DFCAE1;
 }
 
+.dark-mode aside,
+.dark-mode main {
+    background-color: #212121;
+    color: white;
+}
+
 .dark-mode article h1 {
     background-color: #2d363e;
     color: white;
@@ -135,6 +141,7 @@ body {
 aside {
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 10px;
     width: max-content;
     padding-right: 30px;
     padding-left: 30px;
@@ -166,6 +173,7 @@ main {
     background-color: white;
     border-radius: 10px;
     width: 80%;
+    margin-bottom: 10px;
 }
 
 .titleNoticias {

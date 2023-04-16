@@ -21,7 +21,7 @@
 
         <nav class="navbar">
             <a href="/home.html">Home</a>
-            <a href="#noticias">Notícias</a>
+            <a href="/noticias.html">Notícias</a>
             <a href="/contato.html">Contato</a>
         </nav>
     </header>
@@ -46,40 +46,28 @@
                 <img src="/img/santander.png" class="santander">
                 <iframe width="200" height="150" src="https://www.youtube.com/embed/I7_kC_QVjNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-
         </aside>
 
         <main class="mainC">
             <h1 class="EntreContato">Entre em Contato!</h1>
             <main class="maincontac">
                 <div class="teste">
-                    <form class="formC">
-                        <input class="teste01" type="text" id="nome" placeholder="Nome">
+                    <form class="formC" onsubmit="alertaContato()">
+                        <input class="teste01" type="text" id="nome" placeholder="Nome" required>
                         <input class="teste01" type="text" id="sobrenome" placeholder="Sobrenome">
                         <input class="teste01" type="tel" id="DDD + Telefone" placeholder="DDD + Telefone">
-                        <input class="teste01" type="email" id="email" placeholder="Email"> <br>
+                        <input class="teste01" type="email" id="email" placeholder="Email" required> <br>
                         <label for="ajuda">Como podemos ajudar?</label>
                         <select nome"opcoes">
                             <option value="">Atendimento</option>
                             <option value="">Parcerias</option>
                             <option value="">Outros</option>
                         </select>
-                        <textarea name="text" placeholder="Mensagem" cols="20" rows="8"></textarea><br>
-                        <input type="checkbox" id="termos">
+                        <textarea name="text" placeholder="Mensagem" cols="20" rows="8" required></textarea><br>
+                        <input type="checkbox" id="termos" required>
                         <label for="termos">Li e concordo com os termos de uso</label> <br>
-                        <input type="submit" value="Enviar">
-                    </form>
+                        <input type="submit" class="submitform" value="Enviar"> </form>
                 </div>
-            </main>
-
-            <article class="content">
-
-                <div class="box">
-
-                </div>
-
-            </article>
-        </main>
     </section>
 
     <a href="#topo"><img src="/img/botaotopo.png" class="topo"></a>

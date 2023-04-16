@@ -32,6 +32,20 @@ body {
     color: #DFCAE1;
 }
 
+.dark-mode aside,
+.dark-mode .mainC {
+    background-color: #212121;
+    color: white;
+}
+
+.dark-mode .maincontac {
+    background-color: #3d3d3d;
+}
+
+.dark-mode .formC label {
+    color: white;
+}
+
 .dark-mode article h1 {
     background-color: #2d363e;
     color: white;
@@ -112,6 +126,7 @@ body {
 aside {
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 10px;
     width: max-content;
     padding-right: 30px;
     padding-left: 30px;
@@ -161,6 +176,7 @@ aside {
     background-color: white;
     border-radius: 10px;
     width: 75%;
+    margin-bottom: 10px;
 }
 
 .EntreContato {
@@ -196,9 +212,14 @@ aside {
 }
 
 form input,
-select {
+select,
+textarea {
     padding: 10px 30px;
     margin: 12px;
+}
+
+.submitform:hover {
+    border-radius: 20px;
 }
 
 /*Fim de section de cadastro*/
@@ -244,6 +265,10 @@ footer {
 @media (max-width: 850px) {
     .container {
         width: fit-content;
+    }
+
+    .maincontac {
+        margin-bottom: 50px;
     }
 
     aside {

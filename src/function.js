@@ -1,9 +1,12 @@
 function changeTheme() {
     var element = document.body;
     element.classList.toggle("dark-mode");
- }
+}
 
- function alertaRegistro(){
+function alertaRegistro(){
     alert("Você está registrado! Xoxo Gossip Soul");
-    document.getElementById("myForm").reset();
- }
+}
+
+function alertaContato(e) {
+   alert("Sua mensagem foi enviada! Xoxo Gossip Soul");
+}
