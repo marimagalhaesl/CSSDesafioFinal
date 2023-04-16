@@ -310,6 +310,7 @@ footer {
 }
 
 @media (max-width: 850px) {
+
     .container {
         width: fit-content;
     }
