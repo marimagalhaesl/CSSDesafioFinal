@@ -56,6 +56,10 @@ body {
     margin: 20px;
 }
 
+.btndark:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
 /* Fim do Dark Mode */
 
 /* Header com nav */
@@ -104,7 +108,7 @@ body {
     background-color: white;
     border-radius: 10px 20px 20px 10px;
     box-shadow: 5px 5px 5px black;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-weight: 400;
     letter-spacing: 1.5px;
@@ -166,12 +170,13 @@ main {
 .titleNoticias {
     text-align: center;
     margin: 20px;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .content {
     padding: 20px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -186,6 +191,11 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+.box p {
+    font-size: 25px;
+    text-align: justify;
 }
 
 .more {
@@ -218,6 +228,7 @@ article h1 {
 
 
 /* Footer */
+
 footer {
     align-items: center;
 }
@@ -235,9 +246,44 @@ footer {
     height: 50px;
 }
 
+.instagram:hover,
+.soulcodeweb:hover,
+.linkedin:hover {
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+}
+
 .extra {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: fit-content;
+    }
+
+    .titleNoticias {
+        font-size: 30px;
+    }
+
+    .newshomeimg {
+        width: 80%;
+        height: 80%;
+    }
+
+    .box p {
+        font-size: 20px;
+    }
+
+    .more {
+        margin-left: 50%;
+    }
+
+    aside {
+        margin-top: 50px;
+    }
+
 }

@@ -56,6 +56,10 @@ body {
     margin: 20px;
 }
 
+.btndark:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
 /* Fim do Dark Mode */
 
 /* Header com nav */
@@ -104,11 +108,12 @@ body {
     background-color: white;
     border-radius: 10px 20px 20px 10px;
     box-shadow: 5px 5px 5px black;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-weight: 400;
     letter-spacing: 1.5px;
 }
+
 
 .btn:hover {
     background-color: #DFCAE1;
@@ -156,12 +161,29 @@ aside {
     margin: 10px;
 }
 
+.publi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.publi iframe {
+    border-radius: 10px;
+}
+
+.publi img {
+    height: 100px;
+    margin: 10px;
+}
+
 main {
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: white;
     border-radius: 10px;
-    width: 78%;
+    width: 80%;
 }
 
 .titleNoticias {
@@ -171,7 +193,7 @@ main {
 }
 
 .content {
-    padding: 26px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -217,20 +239,21 @@ article h1 {
 
 /* Section de cadastro */
 .sectioncadastro {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin: 20px;
     background-color: white;
     border-radius: 10px;
-    height: fit-content;
-    width: 97%;
-
 }
 
 .titleForm {
     text-align: center;
     font-size: 40px;
     padding: 20px;
+}
+
+.cad {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cadastroform {
@@ -272,9 +295,47 @@ footer {
     height: 50px;
 }
 
+.instagram:hover,
+.soulcodeweb:hover,
+.linkedin:hover {
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+}
+
 .extra {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: fit-content;
+    }
+
+    aside {
+        margin-top: 50px;
+    }
+
+    .titleNoticias {
+        font-size: 40px;
+    }
+
+    .newshomeimg {
+        width: 80%;
+        height: 80%;
+    }
+
+    .more {
+        margin-left: 50%;
+    }
+
+    .sectioncadastro {
+        width: fit-content;
+    }
+
+    .cad {
+        width: 100%;
+    }
 }

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat+Alternates:wght@300&family=Satisfy&display=swap');
+
+/* Informações gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gruppo', sans-serif;
+}
+
+body {
+    background-color: #E5DDE6;
+}
+
+/* Fim de informações gerais */
+
+/* Dark Mode */
+.dark-mode {
+    background-color: rgb(26, 26, 26);
+}
+
+.dark-mode header {
+    background-color: #2d363e;
+}
+
+.dark-mode .navbar a {
+    color: white;
+}
+
+.dark-mode .navbar a:hover {
+    color: #DFCAE1;
+}
+
+.dark-mode article h1 {
+    background-color: #2d363e;
+    color: white;
+}
+
+.dark-mode .more {
+    background-color: #2d363e;
+    color: white;
+}
+
+.dark-mode .more:hover {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode .extra {
+    color: white;
+}
+
+.btndark {
+    padding: 10px;
+    margin: 20px;
+}
+
+.btndark:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* Fim do Dark Mode */
+
+/* Header com nav */
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 7px 30px 7px 30px;
+    background-color: #DFCAE1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 200px 0px 250px;
+}
+
+.bannerimg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section para conteúdo principal - main, aside */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    align-items: top;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+aside {
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.publi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.publi iframe {
+    border-radius: 10px;
+}
+
+.publi img {
+    height: 100px;
+    margin: 10px;
+}
+
+.publi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.publi iframe {
+    border-radius: 10px;
+}
+
+.publi img {
+    height: 100px;
+    margin: 10px;
+}
+
+.mainC {
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.EntreContato {
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+}
+
+.maincontac {
+    background-color: rgb(234, 238, 242);
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teste {
+    justify-content: center;
+    color: black;
+}
+
+.formC {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.teste01 {
+    border-style: none;
+    border-radius: 10px;
+}
+
+form input,
+select {
+    padding: 10px 30px;
+    margin: 12px;
+}
+
+/*Fim de section de cadastro*/
+
+/* Botão retornar ao topo */
+.topo {
+    height: 30px;
+    margin-left: 95%;
+}
+
+/* Footer */
+footer {
+    align-items: center;
+}
+
+.contentfooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.instagram,
+.soulcodeweb,
+.linkedin {
+    height: 50px;
+}
+
+.instagram:hover,
+.soulcodeweb:hover,
+.linkedin:hover {
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: fit-content;
+    }
+
+    aside {
+        margin-top: 50px;
+    }
+}
