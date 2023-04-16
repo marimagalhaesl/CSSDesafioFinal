@@ -24,6 +24,10 @@ body {
     background-color: #2d363e;
 }
 
+.dark-mode .logo {
+    content: url(/img/logodark.png);
+}
+
 .dark-mode .navbar a {
     color: white;
 }
