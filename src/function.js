@@ -7,6 +7,6 @@ function alertaRegistro(){
     alert("Você está registrado! Xoxo Gossip Soul");
 }
 
-function alertaContato(e) {
+function alertaContato() {
    alert("Sua mensagem foi enviada! Xoxo Gossip Soul");
 }
