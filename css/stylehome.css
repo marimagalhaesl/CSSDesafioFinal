@@ -358,6 +358,10 @@ footer {
     background: #bfddf3;
 }
 
+.wrapper .button:nth-child(6):hover .icon {
+    background: #1d47de;
+}
+
 .wrapper .button .icon i {
     font-size: 25px;
     line-height: 60px;

@@ -331,6 +331,11 @@ footer {
     color: #ff0000;
 }
 
+.wrapper .button:nth-child(6):hover .icon {
+    background: #1d47de;
+}
+
+
 .extra {
     display: flex;
     justify-content: center;
